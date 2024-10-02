@@ -20,7 +20,9 @@ Define AWS resources such as EC2 instances, VPC, and S3 in Terraform configurati
 Initialize the Terraform configuration using:
 bash
 Copy code
+'''bash
 terraform init
+'''bash
 Store Terraform State in S3:
 
 Configure the backend in main.tf to store the Terraform state file in S3 for collaborative and remote state management:
