@@ -1,12 +1,14 @@
-# AutoTerraJenkins-pipeline-project
 
-CI/CD Pipeline with Terraform, Jenkins, AWS, and GitHub
+
+#CI/CD Pipeline with Terraform, Jenkins, AWS, and GitHub
+
 This project demonstrates how to set up a fully automated CI/CD pipeline using Terraform, Jenkins, AWS, and GitHub for provisioning AWS infrastructure.
 
-Overview
+Overview:
+
 This pipeline automates the provisioning of AWS resources (EC2, VPC, and S3) using Terraform, integrates with Jenkins for continuous delivery, and leverages GitHub as the version control system. Terraform state is stored in an S3 bucket to maintain infrastructure consistency.
 
-Key Components
+Key Components:
 Terraform: Infrastructure-as-Code (IaC) tool used to define and provision AWS resources.
 Jenkins: Automates the CI/CD pipeline to deploy infrastructure with Terraform.
 AWS: Cloud platform where EC2, VPC, and S3 are deployed.
